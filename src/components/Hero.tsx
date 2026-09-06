@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
             <div className="relative group w-48 sm:w-56 rounded-2xl overflow-hidden border border-slate-800/80 bg-slate-900/60 p-2 shadow-2xl transition-all hover:border-slate-700">
               <div className="relative overflow-hidden rounded-xl aspect-[9/15]">
                 <img
-                  src="/hanuman.webp"
+                  src={`${import.meta.env.BASE_URL}hanuman.webp`}
                   alt="Lord Hanuman In Devotion and Focus"
                   className="w-full h-full object-cover grayscale contrast-110 group-hover:grayscale-0 transition-all duration-700 ease-out scale-[1.01] group-hover:scale-105"
                   loading="eager"

@@ -31,7 +31,7 @@ export const PERSONAL_INFO = {
   leetcode: "https://leetcode.com/u/lucky1426shrma/",
   codeforces: "https://codeforces.com/profile/lucky1426shrma",
   codechef: "https://www.codechef.com/users/nifty_glee_76",
-  resumeUrl: "/Lucky_Sharma_Resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}Lucky_Sharma_Resume.pdf`,
   summary: "Undergraduate student at MNNIT Allahabad. I like AI Engineering, Agents, Backend, Scalable - Distributed systems and DSA. LeetCode Knight with an active contest record on Codeforces and CodeChef."
 };
 
