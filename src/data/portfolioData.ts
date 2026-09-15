@@ -49,6 +49,18 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/lucky1426shrma/Distributed-Cloud-Deployment-CDN-Platform"
   },
   {
+    title: "Eval-Driven Video Transcript RAG Application",
+    date: "September 2026",
+    technologies: ["Python", "LangChain", "DeepEval", "Google Gemini Flash", "ChromaDB", "Cross-Encoder (ms-marco)", "CI/CD"],
+    bullets: [
+      "Architected a two-stage RAG pipeline pairing ChromaDB bi-encoder search with a Cross-Encoder reranker (ms-marco-MiniLM-L-6-v2), boosting Contextual Precision from 68% to 86% (+18% lift) and Contextual Recall to 89% on curated benchmarks.",
+      "Engineered an automated CI/CD regression suite in DeepEval to evaluate the RAG Triad (Faithfulness, Relevancy), enforcing a 3-tier CI decision gate (PASS=0, FAIL=1, REVIEW=2) calibrated to empirical noise floors (0.02 gate, 0.05 guardrail).",
+      "Built enterprise safety guardrails evaluated across 105 test cases, programmatically blocking prompt injection, PII leakage (0.9 threshold), and toxic outputs (0.3 threshold) while enforcing deterministic abstentions for ungrounded queries.",
+      "Profiled operational latency and reliability by isolating retrieval and generation runtimes, enforcing strict production SLO targets (800ms TTFT, 2,500ms e2e p95) with exponential backoff fault tolerance."
+    ],
+    githubUrl: "https://github.com/lucky1426shrma/Production-grade-Eval-Driven-RAG-application"
+  },
+  {
     title: "Adaptive MCP Enterprise Agent — Multi-Modal Incident Triage System",
     date: "July 2026 (Razorpay Buildathon)",
     technologies: ["Python", "FastAPI", "Next.js", "LangGraph", "Model Context Protocol (MCP)", "Qdrant", "PostgreSQL", "Docker"],
@@ -132,8 +144,8 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const SKILLS = {
   languages: ["C++", "JavaScript", "TypeScript", "Python", "Java (Basics)", "SQL"],
-  frameworks: ["Node.js", "Express", "React.js", "Socket.io", "Passport.js", "LangChain", "LangGraph", "Hugging Face"],
-  toolsAndDatabases: ["Docker", "Redis 7", "MongoDB", "PostgreSQL", "MySQL", "SQLite", "AWS S3", "Prometheus", "BullMQ", "Git", "GitHub", "Postman", "VS Code"],
+  frameworks: ["Node.js", "Express", "React.js", "Socket.io", "Passport.js", "LangChain", "LangGraph", "DeepEval", "Hugging Face"],
+  toolsAndDatabases: ["Docker", "Redis 7", "MongoDB", "PostgreSQL", "ChromaDB", "MySQL", "SQLite", "AWS S3", "Prometheus", "BullMQ", "Git", "GitHub", "Postman", "VS Code"],
   coursework: ["Data Structures & Algorithms", "Operating Systems", "Object-Oriented Programming", "Database Management Systems", "Computer Networks"],
   interests: ["Competitive Programming", "Web Development", "Generative AI", "Agentic AI", "RAG", "MCP"]
 };
