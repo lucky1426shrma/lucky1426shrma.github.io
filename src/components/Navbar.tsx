@@ -2,11 +2,7 @@ import React from 'react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { ArrowUpRight } from 'lucide-react';
 
-interface NavbarProps {
-  onReplayIntro?: () => void;
-}
-
-export const Navbar: React.FC<NavbarProps> = ({ onReplayIntro }) => {
+export const Navbar: React.FC = () => {
   return (
     <header className="border-b border-slate-800/80 bg-[#0d1117]/90 backdrop-blur-sm sticky top-0 z-30">
       <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -38,17 +34,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onReplayIntro }) => {
             <span>Resume</span>
             <ArrowUpRight className="w-3.5 h-3.5 text-slate-400" />
           </a>
-
-          {onReplayIntro && (
-            <button
-              onClick={onReplayIntro}
-              className="text-slate-500 hover:text-red-400 text-sm transition-colors px-1"
-              title="Replay Spider-Man Intro Animation"
-              aria-label="Replay Intro"
-            >
-              🕷️
-            </button>
-          )}
         </nav>
       </div>
     </header>
