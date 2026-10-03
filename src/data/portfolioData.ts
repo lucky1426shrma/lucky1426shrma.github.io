@@ -152,10 +152,10 @@ export const SKILLS = {
 
 export const LEADERSHIP = [
   {
-    role: "Provisional Lead",
+    role: "Lead",
     organization: "Computer Coding Club (CC Club)",
     institution: "Motilal Nehru National Institute of Technology Allahabad",
-    period: "2025 – Present",
+    period: "2026 – Present",
     location: "Prayagraj, India"
   }
 ];
