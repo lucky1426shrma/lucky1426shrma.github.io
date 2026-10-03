@@ -150,19 +150,6 @@ export const SKILLS = {
   interests: ["Competitive Programming", "Web Development", "Generative AI", "Agentic AI", "RAG", "MCP"]
 };
 
-export const EXPERIENCE = [
-  {
-    role: "Web Development Intern",
-    organization: "Enactus MNNIT",
-    period: "January 2025",
-    location: "Prayagraj, India",
-    bullets: [
-      "Built Full Stack web application serving 1200+ users during TechnoCultural Fest, MNNIT."
-    ],
-    technologies: ["Node.js", "Express", "React", "MongoDB"]
-  }
-];
-
 export const EDUCATION = [
   {
     institution: "Motilal Nehru National Institute of Technology Allahabad",

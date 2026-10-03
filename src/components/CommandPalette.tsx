@@ -9,7 +9,7 @@ import {
   Award, 
   Server, 
   Cpu, 
-  Briefcase, 
+  GraduationCap, 
   ExternalLink,
   Terminal,
   Code2
@@ -111,10 +111,10 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
           action: () => handleNavigate('#skills'),
         },
         {
-          id: 'nav-experience',
-          label: 'Experience & MNNIT Education',
-          icon: <Briefcase className="w-4 h-4 text-emerald-400" />,
-          action: () => handleNavigate('#experience'),
+          id: 'nav-education',
+          label: 'MNNIT Allahabad Education',
+          icon: <GraduationCap className="w-4 h-4 text-emerald-400" />,
+          action: () => handleNavigate('#education'),
         },
         {
           id: 'nav-contact',

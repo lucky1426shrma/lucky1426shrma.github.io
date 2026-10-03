@@ -22,8 +22,8 @@ export const Navbar: React.FC = () => {
           <a href="#competitive" className="hover:text-slate-200 transition-colors">
             Contests
           </a>
-          <a href="#experience" className="hover:text-slate-200 transition-colors">
-            Experience
+          <a href="#education" className="hover:text-slate-200 transition-colors">
+            Education
           </a>
           <a 
             href={PERSONAL_INFO.resumeUrl} 
