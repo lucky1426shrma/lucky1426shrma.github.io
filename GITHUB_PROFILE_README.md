@@ -4,7 +4,7 @@
 
 **Undergraduate at Motilal Nehru National Institute of Technology (MNNIT) Allahabad**  
 *(Batch of 2024 – 2028 &bull; CPI: 8.51)*  
-**Lead (2026 – Present)**, Computer Coding Club (CC Club), MNNIT Allahabad
+**Provisional Lead (2026 – Present)**, Computer Coding Club (CC Club), MNNIT Allahabad
 
 <p align="center">
   <i>"I like AI Engineering, Agents, Backend, Scalable - Distributed systems and DSA."</i>
