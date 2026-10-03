@@ -133,7 +133,6 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
           icon: <FileText className="w-4 h-4 text-cyan-400" />,
           action: () => {
             onClose();
-            window.open(PERSONAL_INFO.resumeUrl, '_blank');
           },
         },
         {

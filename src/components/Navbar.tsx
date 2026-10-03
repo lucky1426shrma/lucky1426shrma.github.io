@@ -25,15 +25,15 @@ export const Navbar: React.FC = () => {
           <a href="#leadership" className="hover:text-slate-200 transition-colors">
             Leadership
           </a>
-          <a 
-            href={PERSONAL_INFO.resumeUrl} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-slate-200 hover:text-white transition-colors"
+          <button 
+            type="button"
+            disabled
+            className="inline-flex items-center gap-1 text-slate-500 cursor-not-allowed select-none"
+            title="Resume currently unavailable"
           >
             <span>Resume</span>
-            <ArrowUpRight className="w-3.5 h-3.5 text-slate-400" />
-          </a>
+            <ArrowUpRight className="w-3.5 h-3.5 text-slate-500" />
+          </button>
         </nav>
       </div>
     </header>

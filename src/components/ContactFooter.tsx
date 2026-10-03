@@ -38,16 +38,15 @@ export const ContactFooter: React.FC = () => {
 
           <span className="text-slate-700 hidden sm:inline">•</span>
 
-          <a
-            href={PERSONAL_INFO.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Lucky_Sharma_Resume.pdf"
-            className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
+          <button
+            type="button"
+            disabled
+            className="inline-flex items-center gap-1.5 text-slate-500 cursor-not-allowed select-none"
+            title="Resume currently unavailable"
           >
-            <FileText className="w-3.5 h-3.5 text-slate-400" />
+            <FileText className="w-3.5 h-3.5 text-slate-500" />
             <span>Download Resume PDF</span>
-          </a>
+          </button>
         </div>
 
         <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-400">
