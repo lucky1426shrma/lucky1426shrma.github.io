@@ -150,6 +150,16 @@ export const SKILLS = {
   interests: ["Competitive Programming", "Web Development", "Generative AI", "Agentic AI", "RAG", "MCP"]
 };
 
+export const LEADERSHIP = [
+  {
+    role: "Provisional Lead",
+    organization: "Computer Coding Club (CC Club)",
+    institution: "Motilal Nehru National Institute of Technology Allahabad",
+    period: "2025 – Present",
+    location: "Prayagraj, India"
+  }
+];
+
 export const EDUCATION = [
   {
     institution: "Motilal Nehru National Institute of Technology Allahabad",
